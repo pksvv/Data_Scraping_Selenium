@@ -1,14 +1,12 @@
-# Data_Scraping_Selenium
-
 This repo contains code snippets for scraping web data using Selenium and BeautifulSoup
 
-Setup Pre-requisites
+# Setup Pre-requisites
 
-### Python 3.6
-### Selenium - pip install selenium or conda install --name myenv selenium
-### BeautifulSoup
+#### Python 3.6
+#### Selenium - pip install selenium or conda install --name myenv selenium
+#### BeautifulSoup
 
-### Install PhantomJS (steps for Ubuntu listed below)
+#### Install PhantomJS (steps for Ubuntu listed below)
 
 	sudo apt-get upgrade -y
 	sudo apt-get update -y
@@ -20,8 +18,7 @@ Setup Pre-requisites
 
 	phantomjs --version
 
-### Recently, getting messages that PhantomJS is being deprecated, so have chromium-webdriver installed as well
+#### Recently, getting messages that PhantomJS is being deprecated, so have chromium-webdriver installed as well
 	sudo apt install chromium-chromedriver
 
 The script "sel2.py" contains examples for both PhantomJS and ChromeDriver headless
-
